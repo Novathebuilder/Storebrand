@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storebrand Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background: #000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00c851;
+        }
+
+        header {
+            background: #fff;
+            color: #000;
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        header button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        header button:hover {
+            background: #333;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+        }
+
+        .admin-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .admin-link a {
+            text-decoration: none;
+            color: black;
+            background: #00c851;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .admin-link a:hover {
+            background: #007e33;
+            color: white;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigasjon -->
+    <nav>
+        <div class="logo">Storebrand</div>
+        <ul>
+            <li><a href="#about">Om oss</a></li>
+            <li><a href="#services">Tjenester</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Velkommen til Storebrand Bank</h1>
+        <p>En moderne bankopplevelse.</p>
+        <button onclick="location.href='admin.html'">Gå til Admin Panel</button>
+    </header>
+
+    <!-- Om oss -->
+    <section id="about">
+        <h2>Om oss</h2>
+        <p>Storebrand har vært Norges ledende bank siden 1767...</p>
+    </section>
+
+    <!-- Tjenester -->
+    <section id="services">
+        <h2>Tjenester</h2>
+        <p>Vi tilbyr boliglån, sparing og forsikring...</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Storebrand Bank. Alle rettigheter reservert.</p>
+    </footer>
+</body>
+</html>
